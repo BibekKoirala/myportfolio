@@ -19,6 +19,7 @@ function App() {
 	  	<div style={{marginTop: 100}}>
 			<Routes>
 				<Route path="/" element={<Home />} />
+				<Route path="/myportfolio" element={<Home />} />
 				<Route path="/about" element={<About />} />
 				<Route path="/projects" element={<Projects />} />
 				{/* <Route path="/articles" element={<Articles />} /> */}

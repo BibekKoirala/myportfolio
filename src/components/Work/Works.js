@@ -27,10 +27,10 @@ function Works() {
   return (
     <React.Fragment>
       <div className="works">
-        <Card sx={{ borderRadius: 2, border: `1px solid ${Color3}`, maxWidth: 600, margin: '0 auto', backgroundColor: Color1 }}>
+        <Card elevation={0} sx={{ borderRadius: 2, maxWidth: 600, margin: '0px', padding: 0 }}>
           
-          <CardContent>
-            <CardHeader className="card-header" title='Work Experience' />
+          <CardContent sx={{paddingInline: 0, paddingTop: '24px'}}>
+            <CardHeader style={{padding: 0}} className="card-header" title='Work Experience' />
             {/* <Typography gutterBottom variant="h5" component="div" sx={{color: Color3}} >
               <Box display="flex" alignItems="center">
                 <Avatar component="span">

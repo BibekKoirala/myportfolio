@@ -4,6 +4,7 @@ import Skills from "../Work/Skills";
 import About from "../About/About";
 import INFO from "../../common/userInfo";
 import AllProjects from "../Projects/AllProjects";
+import Education from "../Education/Education";
 
 function Home() {
   return (
@@ -32,6 +33,7 @@ function Home() {
       </section>
       <About />
 		<AllProjects pinned/>
+    <Education />
       <div className="container" style={{ display: "flex" }}></div>
     </React.Fragment>
   );

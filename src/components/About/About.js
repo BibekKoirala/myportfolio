@@ -17,8 +17,13 @@ import {
 } from "../../common/social";
 import Works from "../Work/Works";
 import INFO from "../../common/userInfo";
+import Skills from "../Work/Skills";
+import { Chip, Grid } from "@mui/material";
+import { Color3 } from "../../common/colors";
 
 function About() {
+  const skills = ["JavaScript", "React", "Node.js", "Express", "MongoDB", "Python", "Machine Learning", "AI", "CSS", "HTML"];
+
   return (
     <section id="about" className="about">
       <div className="section-heading text-center">
@@ -33,29 +38,15 @@ function About() {
                 <p>
                   {INFO.about.description}
                 </p>
-                <div className="row">
-                  <div className="col-sm-4">
-                    <div className="single-about-add-info">
-                      <h3>phone</h3>
-                      <p>{INFO.main.phone}</p>
-                    </div>
-                  </div>
-                  <div className="col-sm-4">
-                    <div className="single-about-add-info">
-                      <h3>email</h3>
-                      <p>{INFO.main.email}</p>
-                    </div>
-                  </div>
-                  <div className="col-sm-4">
-                    <div className="single-about-add-info">
-                      <h3>website</h3>
-                      <p>{INFO.main.website}</p>
-                    </div>
-                  </div>
+                {/* Insert Works component here */}
+                <div style={{padding: 0}} className="works-section">
+                  <Works />
                 </div>
+                
               </div>
             </div>
             <div className="col-sm-offset-1 col-sm-5">
+            
               <div
                 className="single-about-img"
                 style={{
@@ -115,9 +106,39 @@ function About() {
                   </ul>
                 </div>
               </div>
+              <div className="row">
+                  <div className="col-sm-4">
+                    <div className="single-about-add-info">
+                      <h3>phone</h3>
+                      <p>{INFO.main.phone}</p>
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="single-about-add-info">
+                      <h3>email</h3>
+                      <p>{INFO.main.email}</p>
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="single-about-add-info">
+                      <h3>website</h3>
+                      <p>{INFO.main.website}</p>
+                    </div>
+                  </div>
+                </div>
+                <Grid container spacing={1}>
+              {skills.map((skill, index) => (
+                <Grid item key={index}>
+                  <Chip sx={{color: Color3}} label={skill} />
+                </Grid>
+              ))}
+            </Grid>
             </div>
+            
           </div>
+          
         </div>
+        
       </div>
     </section>
   );
