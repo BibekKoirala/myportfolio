@@ -36,7 +36,29 @@ const INFO = {
     description:
       "Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
   },
-
+  education: [
+    {
+        period: "2018 - 2022",
+        degree: "Bachelor of Technology in Computer Science",
+        institution: "BML Munjal University",
+        location: "Gurugram, India",
+        description: "During my time at BML Munjal University, I graduated with a 7.52 CGPA in Bachelor's of Technology in Computer Engineering. I actively participated in the robotics club and represented the university in football."
+    },
+    {
+        period: "2023 - 2024",
+        degree: "Applied A.I. Solutions Development (PostGraduate)",
+        institution: "George Brown College",
+        location: "Toronto, Canada",
+        description: "During my tenure at George Brown College, I immersed myself in a myriad of projects spanning sentiment analysis, chatbots, and object detection. These projects provided invaluable hands-on experience, honing my skills in cutting-edge technologies and deepening my understanding of their real-world applications."
+    },
+    {
+        period: "2024 - 2025",
+        degree: "Cloud Computing Technologies (PostGraduate)",
+        institution: "George Brown College",
+        location: "Toronto, Canada",
+        description: "During my tenure at George Brown College, I immersed myself in a myriad of projects spanning sentiment analysis, chatbots, and object detection. These projects provided invaluable hands-on experience, honing my skills in cutting-edge technologies and deepening my understanding of their real-world applications."
+    }
+],
   projects: [
     {
       title: "Graph Search Algorithm Visualization",
@@ -47,7 +69,7 @@ const INFO = {
       link: "https://github.com/BibekKoirala/graph_search_algorithm_visualization",
       demo: "https://bibekkoirala.github.io/graph_search_algorithm_visualization/",
       maintainance: true,
-      badges: ['ReactJS', 'CSS', 'DSA']
+      badges: ['ReactJS', 'CSS', 'DSA', 'HTML']
     },
     {
         title: "Project 2",

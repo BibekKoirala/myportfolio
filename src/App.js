@@ -10,6 +10,7 @@ import Projects from './components/Projects/AllProjects';
 import { Route, Routes } from 'react-router-dom';
 import Footer from './components/NavBar/Footer';
 import { Fragment } from 'react';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -24,8 +25,8 @@ function App() {
 				<Route path="/projects" element={<Projects />} />
 				{/* <Route path="/articles" element={<Articles />} /> */}
 				{/* <Route path="/article/:slug" element={<ReadArticle />} /> */}
-				{/* <Route path="/contact" element={<Contact />} />
-				<Route path="*" element={<Notfound />} /> */}
+				<Route path="/contact" element={<Contact />} />
+				{/* <Route path="*" element={<Notfound />} /> */}
 			</Routes>
 			</div>
 		</div>

@@ -31,7 +31,7 @@ function About() {
       </div>
       <div className="container">
         <div className="about-content">
-          <div className="row">
+          <div className="row" >
             <div className="col-sm-6">
               <div className="single-about-txt">
                 <h3>{INFO.about.title}</h3>
@@ -126,15 +126,15 @@ function About() {
                     </div>
                   </div>
                 </div>
-                <Grid container spacing={1}>
+                
+            </div>
+            <Grid justifyContent={'center'} container spacing={1}>
               {skills.map((skill, index) => (
                 <Grid item key={index}>
                   <Chip sx={{color: Color3}} label={skill} />
                 </Grid>
               ))}
             </Grid>
-            </div>
-            
           </div>
           
         </div>

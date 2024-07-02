@@ -616,3 +616,49 @@ body {
   height: 20px;
   border: 5px solid #333;
 }
+
+/*****************************Contact page *******************************************/
+
+.page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: auto;
+  padding: 50px;
+}
+
+.content-wrapper {
+  max-width: 800px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: center;
+}
+
+.contact-container {
+  margin-top: 20px;
+}
+
+.title.contact-title {
+  font-size: 2em;
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.subtitle.contact-subtitle {
+  font-size: 1.2em;
+  color: #6c757d;
+  line-height: 1.5;
+}
+
+.subtitle.contact-subtitle a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.subtitle.contact-subtitle a:hover {
+  text-decoration: underline;
+}

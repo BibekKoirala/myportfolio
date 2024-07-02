@@ -36,7 +36,7 @@ const MyNavbar = () => {
             <Link to="/projects" style={{color: Color3,textDecoration: 'none'}}>Projects</Link>
           </Button>
           <Button color="inherit">
-            <Link to="#about" style={{color: Color3,textDecoration: 'none'}}>Contact</Link>
+            <Link to="/contact" style={{color: Color3,textDecoration: 'none'}}>Contact</Link>
           </Button>
         </div>
       </Toolbar>
