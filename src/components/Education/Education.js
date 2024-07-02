@@ -8,30 +8,8 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
+import INFO from '../../common/userInfo';
 
-const educationData = [
-    {
-        period: "2018 - 2022",
-        degree: "Bachelor of Technology in Computer Science",
-        institution: "BML Munjal University",
-        location: "Gurugram, India",
-        description: "During my time at BML Munjal University, I graduated with a 7.52 CGPA in Bachelor's of Technology in Computer Engineering. I actively participated in the robotics club and represented the university in football."
-    },
-    {
-        period: "2023 - 2024",
-        degree: "Applied AI Solutions (PostGraduate)",
-        institution: "George Brown College",
-        location: "Toronto, Canada",
-        description: "During my tenure at George Brown College, I immersed myself in a myriad of projects spanning sentiment analysis, chatbots, and object detection. These projects provided invaluable hands-on experience, honing my skills in cutting-edge technologies and deepening my understanding of their real-world applications."
-    },
-    {
-        period: "2024 - 2025",
-        degree: "Cloud Computing (PostGraduate)",
-        institution: "George Brown College",
-        location: "Toronto, Canada",
-        description: "During my tenure at George Brown College, I immersed myself in a myriad of projects spanning sentiment analysis, chatbots, and object detection. These projects provided invaluable hands-on experience, honing my skills in cutting-edge technologies and deepening my understanding of their real-world applications."
-    }
-];
 
 export default function AlternateTimeline() {
     return (
@@ -42,15 +20,15 @@ export default function AlternateTimeline() {
                 </Typography>
             </div>
             <Timeline position="alternate">
-                {educationData.map((item, index) => (
+                {INFO.education.map((item, index) => (
                     <TimelineItem key={index}>
                         <TimelineSeparator>
                             <TimelineDot color="primary" />
-                            {index < educationData.length - 1 && <TimelineConnector />}
+                            {index < INFO.education.length - 1 && <TimelineConnector />}
                         </TimelineSeparator>
-                        <TimelineContent>
-                            <Paper elevation={3} style={{ padding: '10px 20px' }}>
-                                <Typography variant="h6" component="h3">
+                        <TimelineContent sx={index%2==0?{}:{display: 'flex', flexDirection: 'row-reverse'}}>
+                            <Paper elevation={1} style={{ padding: '10px 20px', width: '50%'}}>
+                                <Typography variant="h6" fontWeight={'bold'} component="h3">
                                 {item.degree}
                                 </Typography>
                                 <Typography variant="subtitle1" component="h4">
