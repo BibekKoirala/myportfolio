@@ -5,7 +5,7 @@ const INFO = {
     email: "kbibek371@gmail.com",
     logo: "../logo.png",
     phone: '(647) 719 - 3270',
-    website: "www.google.com"
+    website: "https://BibekKoirala.github.io/myportfolio"
   },
 
   socials: {
