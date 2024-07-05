@@ -26,7 +26,7 @@ function App() {
 				{/* <Route path="/articles" element={<Articles />} /> */}
 				{/* <Route path="/article/:slug" element={<ReadArticle />} /> */}
 				<Route path="/contact" element={<Contact />} />
-				{/* <Route path="*" element={<Notfound />} /> */}
+				<Route path="*" element={<Notfound />} /> 
 			</Routes>
 			</div>
 		</div>
