@@ -11,6 +11,7 @@ import { Route, Routes } from 'react-router-dom';
 import Footer from './components/NavBar/Footer';
 import { Fragment } from 'react';
 import Contact from './components/Contact/Contact';
+import NotFoundPage from './components/Notfound/Notfound';
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
 				{/* <Route path="/articles" element={<Articles />} /> */}
 				{/* <Route path="/article/:slug" element={<ReadArticle />} /> */}
 				<Route path="/contact" element={<Contact />} />
-				<Route path="*" element={<Notfound />} /> 
+				<Route path="*" element={<NotFoundPage />} /> 
 			</Routes>
 			</div>
 		</div>
