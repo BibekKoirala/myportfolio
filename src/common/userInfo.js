@@ -72,15 +72,14 @@ const INFO = {
       badges: ['ReactJS', 'CSS', 'DSA', 'HTML']
     },
     {
-        title: "Project 2",
+        title: "Genetic Algorithms VS Gradient-Based Algorithms for Neural Network ",
         description:
-          "Explore and understand graph search algorithms through dynamic, interactive visualizations and engaging animations.",
-        logo: "https://bibekkoirala.github.io/graph_search_algorithm_visualization/GSA_Viz.png",
+          "This project explores advanced neural network training using genetic algorithms and gradient descent. It features custom implementations of neural networks and its training using python.",
+        logo: "https://raw.githubusercontent.com/BibekKoirala/GeneticNeuralNet/main/project_img.webp",
         pinned: true,
-        link: "https://github.com/BibekKoirala/graph_search_algorithm_visualization",
-        demo: "https://bibekkoirala.github.io/graph_search_algorithm_visualization/",
-        maintainance: true,
-        badges: ['ReactJS', 'CSS', 'DSA']
+        link: "https://github.com/BibekKoirala/GeneticNeuralNet",
+        maintainance: false,
+        badges: ['Python', 'NeuralNetwork', 'AI']
       },
       {
         title: "Project 3",
