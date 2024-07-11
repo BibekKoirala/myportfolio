@@ -82,15 +82,15 @@ const INFO = {
         badges: ['Python', 'NeuralNetwork', 'AI']
       },
       {
-        title: "Project 3",
+        title: "News Recommender System",
         description:
-          "Explore and understand graph search algorithms through dynamic, interactive visualizations and engaging animations.",
-        logo: "https://bibekkoirala.github.io/graph_search_algorithm_visualization/GSA_Viz.png",
+          "Discover news that interests you. Our recommender suggests articles based on your preferences, using advanced algorithms and natural language processing.",
+        logo: "https://raw.githubusercontent.com/BibekKoirala/NewsRecommenderSystem/main/project_img.jpg",
         pinned: true,
-        link: "https://github.com/BibekKoirala/graph_search_algorithm_visualization",
-        demo: "https://bibekkoirala.github.io/graph_search_algorithm_visualization/",
+        link: "https://github.com/BibekKoirala/NewsRecommenderSystem",
+        demo: "https://colab.research.google.com/drive/1_yvJ9w2fZE6sxmTSjig7LhQhWl0HOG8p",
         maintainance: true,
-        badges: ['ReactJS', 'CSS', 'DSA']
+        badges: ['Python', 'NLP', 'SKLearn']
       },
       {
         title: "Project 4",
