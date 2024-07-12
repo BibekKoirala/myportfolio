@@ -93,14 +93,14 @@ const INFO = {
         badges: ['Python', 'NLP', 'SKLearn']
       },
       {
-        title: "Project 4",
+        title: "Attendance management system",
         description:
-          "Explore and understand graph search algorithms through dynamic, interactive visualizations and engaging animations.",
+          "",
         logo: "https://bibekkoirala.github.io/graph_search_algorithm_visualization/GSA_Viz.png",
         pinned: true,
-        link: "https://github.com/BibekKoirala/graph_search_algorithm_visualization",
+        link: "https://github.com/BibekKoirala/attendance_managment_cloudproject",
         maintainance: true,
-        badges: ['ReactJS', 'CSS', 'DSA']
+        badges: ['ReactJS', 'C++', 'Hardware', 'Redux', 'MUI']
       },
       {
         title: "Project 5",
